@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+pylint = "*"
+pytest = "*"
+semversioner = "*"
+<<<<<<< HEAD
+twine = "*"
+=======
+>>>>>>> f46502614aa7de7c0673786192ca5ac4c804428e
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+gym = "*"
+numpy = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
